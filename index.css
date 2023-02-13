@@ -8,9 +8,10 @@ body{
     background: #d7c49eff;
     color: #343148ff;
 }
+/* nav bar css start */
 #nav-menu{
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 10px 10%;
 }
 nav{
@@ -46,4 +47,34 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+/* nav bar css end */
+
+/* home section css */
+#home{
+    text-align: center;
+    padding-top: 30px;
+    height: auto;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+#detials{
+    padding-top: 150px;
+}
+#detials>button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px solid #343148ff;
+    background-color: lightgrey;
+    color: #343148ff;
+    font-size: 20px;
+}
+#detials button:hover{
+    cursor: pointer;
+    background-color: #d7c49eff;
+}
+#home .home-img{
+    border-radius: 100px;
 }
