@@ -77,4 +77,31 @@ nav ul li a:hover::after{
 }
 #home .home-img{
     border-radius: 100px;
+    padding-bottom: 30px;
 }
+/* home section css end */
+
+
+
+
+/* contact section css start */
+#contact{
+    text-align: center;
+    margin: auto;
+    
+}
+#contact_inner{
+    font-size: 22px;
+    
+}
+#contact_inner a{
+    color: #343148ff;
+    text-decoration: none;
+}
+#contact_inner i{
+    font-size: 30px;
+}
+
+
+
+
