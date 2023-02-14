@@ -71,7 +71,7 @@ nav ul li a:hover::after{
     border: 0px solid rgb(46, 41, 41);
     background-color: rgb(97, 223, 97);
     color: rgb(46, 41, 41);
-    font-size: 20px;
+    font-size: 22px;
 }
 #detials button:hover{
     cursor: pointer;
@@ -99,7 +99,60 @@ nav ul li a:hover::after{
 /* home section css end */
 
 
+/* Skill section css start */
+#skills{
+    text-align: center;
+}
+#all_skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: auto;
+}
+.skills-card-img{
+    width: 50%;
+}
+.skills-card-name{
+    font-size: 22px;
+}
+@media screen and (min-width:320px) and (max-width:650px){
+    #all_skills{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (min-width:651px) and (max-width:1024px){
+    #all_skills{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/* Skill section end */
 
+/* Tool section start */
+#tools{
+    text-align: center;
+}
+#all_tools{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: auto;
+}
+.skills-card-img{
+    width: 50%;
+}
+.skills-card-name{
+    font-size: 22px;
+}
+@media screen and (min-width:320px) and (max-width:650px){
+    #all_tools{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (min-width:651px) and (max-width:1024px){
+    #all_tools{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
 /* contact section css start */
 #contact{
