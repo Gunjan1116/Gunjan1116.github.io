@@ -160,6 +160,8 @@ nav ul li a:hover::after{
 #projects{
     text-align: center;
     padding: 0px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #main_project{
     display: grid;
@@ -204,7 +206,8 @@ nav ul li a:hover::after{
 #contact{
     text-align: center;
     margin: auto;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #contact_inner{
     font-size: 22px;
@@ -231,6 +234,18 @@ nav ul li a:hover::after{
     }
 }
 
+
+/* github calender css*/
+.react-activity-calendar{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#All_github_details{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
 
 
 
