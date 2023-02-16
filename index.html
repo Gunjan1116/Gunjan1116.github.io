@@ -13,14 +13,16 @@
     <div id="nav-menu">
         <nav>
             <a href="#" class="logo" style="color:rgb(97, 223, 97);">Gunjan</a>
-            <ul>
+            <ul id="sidemenu">
                 <li><a class="nav-link home" href="#">Home</a></li>
                 <li><a class="nav-link about" href="#about">About</a></li>
                 <li><a class="nav-link skills" href="#skills">Skills</a></li>
                 <li><a class="nav-link projects" href="#projects">Projects</a></li>
                 <li><a class="nav-link contact" href="#contact">Contact</a></li>
                 <li><a class="nav-link resume" id="resume-button-1" href="./resume/Gunjan_Kumar_Resume.pdf" download="Gunjan_Kumar_Resume">Resume</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
     </div>
     
@@ -29,10 +31,10 @@
     <!-- home section start -->
     <div id="home">
         <div id="detials">
-            <h1>Hi, I am Gunjan Kumar,</h1>
+            <h1 id="user-detail-name">Hi, I am Gunjan Kumar,</h1>
             <h1 >Full Stack Web Developer</h1>
             <h3>A Dedicated full stack developer</h3>
-            <a id="resume-link-2" style="text-decoration: none; " href="./resume/Gunjan_Kumar_Resume.pdf" download="Gunjan_Kumar_Resume">Resume</a>
+            <a id="resume-button-2" style="text-decoration: none; " href="./resume/Gunjan_Kumar_Resume.pdf" download="Gunjan_Kumar_Resume">Resume</a>
         </div>
         <div id="pic">
             <img class="home-img" src="./image/135.jpg">
@@ -41,9 +43,20 @@
     <!-- home section end -->
 
 
+
+    <!-- Name : id="user-detail-name"
+  - Formal introduction : id="user-detail-intro" -->
     <!-- About section start -->
     <div id="about" class="about section">
-        <h1>About</h1>
+        <h1 style="text-decoration: underline;margin-bottom: 30px;">About</h1>
+        <div id="about_details">
+            <div id="about_pic" >
+                <img width="100%" src="./image/about" alt="about">
+            </div>
+            <div id="user-detail-intro">
+            </div>
+        </div>
+    
     </div>
     <!-- About section end -->
 
@@ -240,4 +253,5 @@
         }
     })
 </script> -->
+<script src="index.js"></script>
 </html>
