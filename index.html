@@ -7,6 +7,8 @@
     <title>Gunjan Kumar portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head>
 <body>
     <!-- nav bar section start-->
@@ -25,7 +27,6 @@
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
     </div>
-    
     <!-- nav bar section end -->
     
     <!-- home section start -->
@@ -42,10 +43,6 @@
     </div>
     <!-- home section end -->
 
-
-
-    <!-- Name : id="user-detail-name"
-  - Formal introduction : id="user-detail-intro" -->
     <!-- About section start -->
     <div id="about" class="about section">
         <h1 style="text-decoration: underline;margin-bottom: 30px;">About</h1>
@@ -116,17 +113,6 @@
     </div>
     <!-- Skill section end -->
 
-    
-        
-    
-
-            <!-- Each project card in the Projects section should have class="project-card" and the following:
-            - Image of the project
-            - Title : class="project-title"
-            - Description : class="project-description"
-            - Tech stack used : class="project-tech-stack"
-            - Link to GitHub repository : class="project-github-link"
-            - Deployed link or video link : class="project-deployed-link" -->
     <!-- Project section start -->
     <div id="projects">
         <h1 style="text-decoration: underline;margin-bottom: 30px;">Projects</h1>
@@ -174,25 +160,13 @@
         </div>
     </div>
     <!-- project section end -->
-    <!-- Git hub section start -->
-    <!-- For the GitHub calendar: class="react-activity-calendar" 
-    (the class is automatically included if you're using the 
-    react-github-calendar npm package)
-- The GitHub statistics images must have the following IDs:
-  - GitHub streak stats : id="github-streak-stats" 
-  [Link to refer : https://github-readme-streak-stats.herokuapp.com/demo/]
-  - GitHub top languages : id="github-top-langs" 
-  [Link to refer : https://github.com/anuraghazra/github-readme-stats]
-  - GitHub stats card : id="github-stats-card" 
-  [Link to refer : https://github.com/anuraghazra/github-readme-stats] -->
-  
-    
-        
-        
+
+      <!-- Git hub section start -->  
   <div class="react-activity-calendar">
     <h1 style="text-decoration: underline;margin-bottom: 30px;">GitHub Statistics</h1>
+    <div class="calendar" style="width: 95%;border: 2px solid rgb(97, 223, 97);font-size: 22px;margin-bottom: 30px;"></div>
     <div id="All_github_details">
-        <div class="calendar" ></div>
+        
         <div>
         <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Gunjan1116&theme=merko&hide_border=true"/>
         </div>
@@ -207,6 +181,7 @@
     </div>
     
 </div>
+    <!-- Git hub section end -->
 
 
 
@@ -237,21 +212,16 @@
               </div>
             </div>
         </div>
-        
     </div> 
     <!-- contact section end -->
+
 </body>
-<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
-<!-- <script>
-
-    GitHubCalendar(".calendar", "Gunjan1116", { responsive: true});
-
-    // Use a proxy
-    GitHubCalendar(".calendar", "Gunjan1116", {
-        proxy(username) {
-            return fetch(`https://your-proxy.com/github?user=${username}`)
-        }
-    })
-</script> -->
+<!-- Script -->
 <script src="index.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+        <script>
+            GitHubCalendar(".calendar", "Gunjan1116");
+            // or enable responsive functionality
+            GitHubCalendar(".calendar", "Gunjan1116", { responsive: true });
+      </script>
 </html>

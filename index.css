@@ -142,6 +142,8 @@ nav ul li a:hover::after{
 #about{
     text-align: center;
 }
+/* about section css end */
+
 
 /* Skill section css start */
 #skills{
@@ -255,6 +257,8 @@ nav ul li a:hover::after{
         grid-template-columns: repeat(1,1fr);
     }
 }
+/* project section css end */
+
 /* contact section css start */
 #contact{
     text-align: center;
@@ -286,7 +290,7 @@ nav ul li a:hover::after{
         flex-direction: column;
     }
 }
-
+/* contact section css end */
 
 /* github calender css*/
 .react-activity-calendar{
@@ -311,6 +315,7 @@ nav ul li a:hover::after{
         flex-direction: column;
     }
 }
+/* Github css end */
 
 
 
