@@ -97,7 +97,7 @@ nav ul li a:hover::after{
 #detials h3{
     margin-bottom:  20px; 
 }
-#detials>a{
+#detials>button{
     margin-top: 10px;
     padding: 10px 30px;
     border-radius: 10px;
@@ -106,11 +106,14 @@ nav ul li a:hover::after{
     color: rgb(46, 41, 41);
     font-size: 22px;
 }
-#detials a:hover{
+#detials button:hover{
     cursor: pointer;
     background-color: rgb(46, 41, 41);
     color: rgb(97, 223, 97);
     border: 1px solid rgb(97, 223, 97);
+}
+#detials button a:hover{
+    color: rgb(97, 223, 97);
 }
 #home .home-img{
     border-radius: 100px;
@@ -141,6 +144,23 @@ nav ul li a:hover::after{
 /* about section css start */
 #about{
     text-align: center;
+}
+#about_details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+#about_pic img{
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+#user-detail-intro{
+    display: flex;
+    align-items: center;
+    text-justify:inter-word;
+    padding: 0px 20px;
+    font-size: 22px;
 }
 /* about section css end */
 
