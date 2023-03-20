@@ -337,12 +337,14 @@ nav ul li a:hover::after{
     #All_github_details{
         display: flex;
         flex-direction: column;
+        width: 80%;
     }
 }
 @media screen and (min-width:651px) and (max-width:1024px){
     #All_github_details{
         display: flex;
         flex-direction: column;
+        width: 80%;
     }
 }
 /* Github css end */
