@@ -158,9 +158,11 @@ nav ul li a:hover::after{
 #user-detail-intro{
     display: flex;
     align-items: center;
+    text-align: justify;
     text-justify:inter-word;
     padding: 0px 20px;
     font-size: 22px;
+    /* margin-right: 5px; */
 }
 @media screen and (min-width:320px) and (max-width:650px){
     #about_details{
