@@ -53,7 +53,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     nav .fas{
         display: block;
         font-size: 22px;
@@ -120,7 +120,7 @@ nav ul li a:hover::after{
     padding-bottom: 30px;
 }
 /* media query */
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #home{
         display: flex;
         flex-direction: column;
@@ -129,7 +129,7 @@ nav ul li a:hover::after{
         margin-top: 30px;
     }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
     #home{
         display: flex;
         flex-direction: column;
@@ -164,12 +164,12 @@ nav ul li a:hover::after{
     font-size: 22px;
     /* margin-right: 5px; */
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #about_details{
     grid-template-columns: repeat(1,1fr);
    }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
    #about_details{
     grid-template-columns: repeat(1,1fr);
    }
@@ -180,12 +180,14 @@ nav ul li a:hover::after{
 /* Skill section css start */
 #skills{
     text-align: center;
+    
 }
 #all_skills{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     margin: auto;
+    width: 80%;
 }
 .skills-card-img{
     width: 40%;
@@ -193,12 +195,12 @@ nav ul li a:hover::after{
 .skills-card-name{
     font-size: 22px;
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #all_skills{
         grid-template-columns: repeat(1,1fr);
     }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
     #all_skills{
         grid-template-columns: repeat(2,1fr);
     }
@@ -208,12 +210,14 @@ nav ul li a:hover::after{
 /* Tool section start */
 #tools{
     text-align: center;
+    
 }
 #all_tools{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     margin: auto;
+    width: 80%;
 }
 .skills-card-img{
     width: 40%;
@@ -221,12 +225,12 @@ nav ul li a:hover::after{
 .skills-card-name{
     font-size: 22px;
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #all_tools{
         grid-template-columns: repeat(1,1fr);
     }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
     #all_tools{
         grid-template-columns: repeat(2,1fr);
     }
@@ -240,12 +244,14 @@ nav ul li a:hover::after{
     padding: 0px 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 #main_project{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:20px;
     margin: auto;
+    width: 90%;
 }
 .project-card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -279,12 +285,12 @@ nav ul li a:hover::after{
     margin-bottom: 10px;
     font-size: 22px;
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #main_project{
         grid-template-columns: repeat(1,1fr);
     }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
     #main_project{
         grid-template-columns: repeat(1,1fr);
     }
@@ -297,6 +303,7 @@ nav ul li a:hover::after{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 80%;
 }
 #contact_inner{
     font-size: 22px;
@@ -310,16 +317,22 @@ nav ul li a:hover::after{
 #contact_inner i{
     font-size: 30px;
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #contact_inner{
         display: flex;
         flex-direction: column;
     }
+    #contact_inner>div{
+        margin-bottom: 20px;
+    }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
     #contact_inner{
         display: flex;
         flex-direction: column;
+    }
+    #contact_inner>div{
+        margin-bottom: 20px;
     }
 }
 /* contact section css end */
@@ -329,19 +342,22 @@ nav ul li a:hover::after{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    
 }
 #All_github_details{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: auto;
+    width: 80%;
+
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:653px){
     #All_github_details{
         display: flex;
         flex-direction: column;
     }
 }
-@media screen and (min-width:651px) and (max-width:1024px){
+@media screen and (min-width:654px) and (max-width:1024px){
     #All_github_details{
         display: flex;
         flex-direction: column;
