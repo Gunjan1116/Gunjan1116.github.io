@@ -180,7 +180,7 @@ nav ul li a:hover::after{
 /* Skill section css start */
 #skills{
     text-align: center;
-    
+    margin-bottom: 30px;
 }
 #all_skills{
     display: grid;
