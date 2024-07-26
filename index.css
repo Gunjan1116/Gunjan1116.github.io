@@ -116,9 +116,11 @@ nav ul li a:hover::after{
     color: rgb(97, 223, 97);
 }
 #home .home-img{
-    border-radius: 100px;
-    padding-bottom: 30px;
+    border-radius: 10px;
+    /* padding-bottom: 30px; */
 }
+
+
 /* media query */
 @media screen and (min-width:280px) and (max-width:653px){
     #home{
@@ -144,14 +146,22 @@ nav ul li a:hover::after{
 /* about section css start */
 #about{
     text-align: center;
+    margin-top: 60px;
 }
 #about_details{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap:80px;
+}
+#about_pic{
+    
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid green; */
 }
 #about_pic img{
-    width: 100%;
+    width: 450px;
+    height: 300px;
     padding-left: 20px;
     padding-bottom: 30px;
 }
@@ -160,7 +170,7 @@ nav ul li a:hover::after{
     align-items: center;
     text-align: justify;
     text-justify:inter-word;
-    padding: 0px 20px;
+    padding: 0px 40px 0px;
     font-size: 22px;
     /* margin-right: 5px; */
 }
@@ -176,24 +186,57 @@ nav ul li a:hover::after{
 }
 /* about section css end */
 
+/* EXPERIENCE Section Css start */
+
+#experience-main-heading{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#experience-inner-content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+#experience-heading{
+    width: 30%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#experience-description{
+    width: 70%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#experience-description li{
+    margin-bottom: 20px;
+}
+
+
+/* EXPERIENCE Section Css end */
+
 
 /* Skill section css start */
 #skills{
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 60px;
 }
 #all_skills{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 20px;
     margin: auto;
     width: 80%;
 }
 .skills-card-img{
-    width: 40%;
+    width: 30%;
 }
 .skills-card-name{
-    font-size: 22px;
+    font-size: 18px;
 }
 @media screen and (min-width:280px) and (max-width:653px){
     #all_skills{
@@ -210,20 +253,20 @@ nav ul li a:hover::after{
 /* Tool section start */
 #tools{
     text-align: center;
-    
+    margin-top: 60px;
 }
 #all_tools{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 20px;
     margin: auto;
     width: 80%;
 }
 .skills-card-img{
-    width: 40%;
+    width: 30%;
 }
 .skills-card-name{
-    font-size: 22px;
+    font-size: 18px;
 }
 @media screen and (min-width:280px) and (max-width:653px){
     #all_tools{
@@ -242,7 +285,7 @@ nav ul li a:hover::after{
 #projects{
     text-align: center;
     padding: 0px 40px;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-bottom: 10px;
     
 }
@@ -263,26 +306,34 @@ nav ul li a:hover::after{
     justify-content: space-around;
     margin: auto;
 }
+
+#project_image{
+    height: 270px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .project-title{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 22px;
 }
 .project-description{
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 20px;
     text-align: justify;
     text-justify:inter-word;
 }
 .project-tech-stack{
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
 }
 .all_links_project{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 22px;
 }
 @media screen and (min-width:280px) and (max-width:653px){
@@ -301,8 +352,8 @@ nav ul li a:hover::after{
 #contact{
     text-align: center;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     width: 80%;
 }
 #contact_inner{
@@ -340,7 +391,7 @@ nav ul li a:hover::after{
 /* github calender css*/
 .react-activity-calendar{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px;
     
 }
