@@ -183,6 +183,9 @@ nav ul li a:hover::after{
    #about_details{
     grid-template-columns: repeat(1,1fr);
    }
+   #about_pic{
+    justify-content: center;
+   }
 }
 /* about section css end */
 
