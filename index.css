@@ -220,6 +220,12 @@ nav ul li a:hover::after{
     #experience-inner-content{
         flex-direction: column;
     }
+    #experience-heading{
+        width: 100%;
+    }
+    #experience-description{
+        width: 100%;
+    }
 }
 
 
