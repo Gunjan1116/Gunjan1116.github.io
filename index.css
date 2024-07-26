@@ -354,6 +354,9 @@ nav ul li a:hover::after{
     #main_project{
         grid-template-columns: repeat(1,1fr);
     }
+    #project_image{
+        height: 200px;
+    }
 }
 @media screen and (min-width:654px) and (max-width:1024px){
     #main_project{
