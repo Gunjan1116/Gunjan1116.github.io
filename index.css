@@ -216,6 +216,12 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 
+@media screen and (min-width:280px) and (max-width:653px){
+    #experience-inner-content{
+        flex-direction: column;
+    }
+}
+
 
 /* EXPERIENCE Section Css end */
 
