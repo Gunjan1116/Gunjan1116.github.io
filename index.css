@@ -222,6 +222,8 @@ nav ul li a:hover::after{
     }
     #experience-heading{
         width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
     #experience-description{
         width: 100%;
